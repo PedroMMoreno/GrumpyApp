@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="DIy-PX-wdU">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="angry-2" translatesAutoresizingMaskIntoConstraints="NO" id="rCf-b0-H8Q">
+                                <rect key="frame" x="75" y="302" width="240" height="241"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="font" translatesAutoresizingMaskIntoConstraints="NO" id="nAE-xw-uII">
+                                <rect key="frame" x="20" y="74" width="350" height="220"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nAE-xw-uII" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="7Wb-jW-LyT"/>
+                            <constraint firstItem="DIy-PX-wdU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="AJJ-5q-tAF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rCf-b0-H8Q" secondAttribute="bottom" constant="267" id="ALy-x0-Yw1"/>
+                            <constraint firstItem="nAE-xw-uII" firstAttribute="centerX" secondItem="rCf-b0-H8Q" secondAttribute="centerX" id="B7n-PC-x9c"/>
+                            <constraint firstItem="rCf-b0-H8Q" firstAttribute="top" secondItem="nAE-xw-uII" secondAttribute="bottom" constant="8" id="D3y-dY-EGy"/>
+                            <constraint firstItem="DIy-PX-wdU" firstAttribute="centerY" secondItem="rCf-b0-H8Q" secondAttribute="centerY" id="HCD-Bm-zBz"/>
+                            <constraint firstItem="DIy-PX-wdU" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="O08-8K-gr9"/>
+                            <constraint firstItem="DIy-PX-wdU" firstAttribute="centerX" secondItem="nAE-xw-uII" secondAttribute="centerX" id="nXS-l3-Rbe"/>
+                            <constraint firstItem="DIy-PX-wdU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="phg-vM-dyn"/>
+                            <constraint firstItem="rCf-b0-H8Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="qzp-YB-dcd"/>
+                            <constraint firstItem="DIy-PX-wdU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xed-jF-9K6"/>
+                            <constraint firstItem="nAE-xw-uII" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zxi-bd-Ogc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.769230769230766" y="374.64454976303318"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="angry-2" width="512" height="512"/>
+        <image name="font" width="1332" height="254"/>
+        <image name="gradient" width="1170" height="2532"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
